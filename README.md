@@ -17,7 +17,7 @@ This repository is created with the intent of sharing easy/medium/hard and relev
   10. Find rightmost bit position: **n = n ^ (n & (n-1)) , while(n){ n >> 1, pos++} , return pos**
   11. Find absolute of n without branching : **mask = n >> 31, n = (n + mask) ^ mask**
   12. Minimum of x and y without branching : **y ^ ((x^y) & -(x < y))**
-  13. Maxmum of x and y without branching : **x ^ ((x^y) & -(x < y))**
+  13. Maximum of x and y without branching : **x ^ ((x^y) & -(x < y))**
  ### Medium Difficulty Problems:   
   1. 
      
