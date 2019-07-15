@@ -18,6 +18,9 @@ This repository is created with the intent of sharing easy/medium/hard and relev
   11. Find absolute of n without branching : **mask = n >> 31, n = (n + mask) ^ mask**
   12. Minimum of x and y without branching : **y ^ ((x^y) & -(x < y))**
   13. Maximum of x and y without branching : **x ^ ((x^y) & -(x < y))**
+  14. Find power of 2 greater than given number : **while(n & (n-1)) { n = n & n-1 }, return n << 1**
+  15. Find power of 2 less than given number : **while(n & (n-1)) { n = n & n-1 }, return n**
+  
  ### Medium Difficulty Problems:   
   1. 
      
