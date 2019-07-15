@@ -1,4 +1,5 @@
 /* Modify the bitfields of given 32 bit words */
+/* Source : Codility */
 /*
 Write a function : 
 struct Results { int * R; int M; // Length of the array };
