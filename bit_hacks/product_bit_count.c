@@ -1,5 +1,6 @@
 /* Count Bits in Product */
-/*
+/* Source : Codility */
+/* 
 Write a function:
 
 int solution(int A, int B);
