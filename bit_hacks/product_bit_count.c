@@ -1,3 +1,4 @@
+/* Count Bits in Product */
 /*
 Write a function:
 
