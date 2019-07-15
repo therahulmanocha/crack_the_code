@@ -26,10 +26,8 @@ int solution(int A, int B) {
     //printf("X = %ld\n", X);
     int count = 0;
     while(X ){
-       if(X & 1 ){
-           count++;
-       }
-       X = X / 2;
+       X = X & (X-1);
+       count++;
     }
         
     return count;
