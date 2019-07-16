@@ -24,7 +24,19 @@ This repository is created with the intent of sharing easy/medium/hard and relev
   17. Conditionally negate value without branching : **(n ^ -flag) + flag**
   
  ### Medium Difficulty Problems:   
-  1. 
+  1. 1bit_2bit.c -> Determine if last character is 1bit of 2bit
+  2. alternating_bits.c -> Check if a number has alternating bits
+  4. bitflip_convert.c -> Find number of bits that need to be flipped to convert x to y
+  5. bitwise_and_range.c -> Bitwise and of all numbers in given range 
+  6. count_ones.c -> Count number of 1's in binary of all numbers between 0 to n
+  7. findOddOccu.c -> Find Odd occuring  elements in an array
+  8. find_dup_mis.c -> Find Missing number and duplicate number in array
+  9. modify_bitfields.c -> Modify the bitfields of given 32 bit words
+  10. parity_lookup_table.c -> compute parity using lookup table
+  11. prime_number_setbits.c -> Find all numbers with prime number of set bits
+  12. print_binary.c ->  print binary representation of a 32 bit number using  MACRO
+  13. product_bit_count.c -> Count Bits in Product of two numbers
+  14. reverse_bits.c -> Reverse bits of a 32 bit unsigned Integer
      
 
 
