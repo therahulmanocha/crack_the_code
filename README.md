@@ -20,7 +20,7 @@ This repository is created with the intent of sharing easy/medium/hard and relev
   13. Maximum of x and y without branching : **x ^ ((x^y) & -(x < y))**
   14. Find power of 2 greater than given number : **while(n & (n-1)) { n = n & n-1 }, return n << 1**
   15. Find power of 2 less than given number : **while(n & (n-1)) { n = n & n-1 }, return n**
-  16. Check is n is power of 4 , only 1 set bit and set bit at even positions: **n && !(n & (n - 1)) && !(n & 0xAAAAAAAA)**
+  16. Check if n is power of 4 , only 1 set bit and set bit at even positions: **n && !(n & (n - 1)) && !(n & 0xAAAAAAAA)**
   17. Conditionally negate value without branching : **(n ^ -flag) + flag**
   
  ### Medium Difficulty Problems:   
