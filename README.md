@@ -1,4 +1,4 @@
-# crack_the_code
+# Crack The Code
 Coding interview Questions and Solutions
 
 This repository is created with the intent of sharing  relevant coding problems for cracking software/firmware/embedded-systems coding challenges. Following are the types of coding questions covered in this repo so far.
