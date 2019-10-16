@@ -20,12 +20,6 @@ is not a permutation, because value 2 is missing.
 
 The goal is to check whether array A is a permutation.
 
-Write a function:
-
-class Solution { public int solution(int[] A); }
-
-that, given an array A, returns 1 if array A is a permutation and 0 if it is not.
-
 For example, given array A such that:
 
     A[0] = 4
