@@ -70,7 +70,7 @@ int main(void) {
     int *colSize = malloc(sizeof(int));
     *colSize = COLS; 
     
-    rotate(matrix, 3, colSize);
+    rotate(matrix, ROWS, colSize);
     
     print_arr(matrix, ROWS, COLS);
 }
