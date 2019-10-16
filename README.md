@@ -54,33 +54,47 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
 
      int main()\
      {\
-         int *a;
-         a = 0;
-     }
-     **Solution** : No Memory allocated for pointer 'a' , so compiler throws error.
+         int *a;\
+         a = 0;\
+     }\
+     **Solution** : No Memory allocated for pointer 'a' , so compiler throws error.\
 
-2. Output of following code:
-     void foo(){
-         static int b = 10;
-         printf("%d , ++b);
-     }
-     int main(){
-          for(int i = 0; i < 10; i++){
-              foo();
-          }
-     }
-     **Solution **: 11 12 13 14 ... 20
-3. Problem with this code:
-     void foo(const int &b){
-          b++;
-     }
-     int main(){
-          foo(25);
-     }
-     **Solution** : b is const , so foo cannot increment b, compiler throws error
+2. Output of following code:\
+     void foo(){\
+         static int b = 10;\
+         printf("%d , ++b);\
+     }\
+     int main(){\
+          for(int i = 0; i < 10; i++){\
+              foo();\
+          }\
+     }\
+     **Solution **: 11 12 13 14 ... 20\
+3. Problem with this code:\
+     void foo(const int &b){\
+          b++;\
+     }\
+     int main(){\
+          foo(25);\
+     }\
+     **Solution** : b is const , so foo cannot increment b, compiler throws error\
      
+ 4.  What will compiler output: \
+     int *foo(){ \
+        int x = 25; \
+        x++; \
+        return &x; \
+     }\
+     int main(){ \
+        int *p;\
+        p = foo(); \
+        printf("%d\n", *p);\
+     }\
+     **Error ** : Load of Null pointer of type INT
      
-     
-
+ 5. Problem : Twp Sorted Arrays a1 = [1 2 3 3 4 5 7 7 8], a2 = [2 4 5 6 8 9 9 10] \
+              Combine these two arrays , such that output array is also sorted \
+ 
+ 
 
 
