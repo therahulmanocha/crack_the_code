@@ -1,7 +1,8 @@
-
-
-
-
+/* Merge a list of intervals such that all intervals are distinct */
+/* Example Input  : {{1,5},{2,7},{9,12},{10,14},{13,15}}
+           Output : {{1,7}, {9, 15}}
+*/
+/* Source : leetcode */
 
 int **merge_list(int **list1, int Size, int *outSize){
     
@@ -11,13 +12,14 @@ int **merge_list(int **list1, int Size, int *outSize){
     list2[count][0] = list1[count][0];
     list2[count][1] = list1[count][1];
     
-    int pmax = list2[count][1];
-    int pmin = list2[count][0];
+    int pmax = list2[count][1]; // previous min
+    int pmin = list2[count][0]; // previous max
     
     for(int i = 1; i < Size; i++){    
-           int cmin = list1[i][0];
-           int cmax = list1[i][1];
-           if(cmin < pmax && cmax <= pmax){
+           int cmin = list1[i][0]; // current min
+           int cmax = list1[i][1]; // current max
+           // compare the intervals and fill list2 with new intervals
+           if(cmin < pmax && cmax <= pmax){ 
                continue;
               // printf("Case0 \n");
            }
@@ -39,14 +41,13 @@ int **merge_list(int **list1, int Size, int *outSize){
     
     *outSize = count+1;
     return list2;
-    
 }
 
 #define SIZE 5
 
 int main(void) {
-    int arr_init[SIZE][2] = {{1,5},{2,7},{9,12},{10,14},{13,15}};
     
+    int arr_init[SIZE][2] = {{1,5},{2,7},{9,12},{10,14},{13,15}};
     int **arr;
     arr = (int **)malloc(sizeof(int *)*SIZE);
     
