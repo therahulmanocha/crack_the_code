@@ -48,4 +48,38 @@ Coding problems have been picked from following sources:
    Problems hand picked from Leetcode and Codility. These include basic list merging, sorting, 1D and 2D array rotation, transpose, dot product. These are must for understanding time/space complexity trade-off in solving array problems. They do not include complex data structures and DP problems, since those are rarely asked in Firmware/Embedded-systems interviews.
 
 
+Following is a compilation of Interview problems asked in Firmware Interviews at Amazon, FB, Xilinx, Samsung, Apple
+
+1. Find the compiler output:
+     int main()
+     {
+         int *a;
+         a = 0;
+     }
+     **Solution** : No Memory allocated for pointer 'a' , so compiler throws error.
+
+2. Output of following code:
+     void foo(){
+         static int b = 10;
+         printf("%d , ++b);
+     }
+     int main(){
+          for(int i = 0; i < 10; i++){
+              foo();
+          }
+     }
+     **Solution **: 11 12 13 14 ... 20
+3. Problem with this code:
+     void foo(const int &b){
+          b++;
+     }
+     int main(){
+          foo(25);
+     }
+     **Solution** : b is const , so foo cannot increment b, compiler throws error
+     
+     
+     
+
+
 
