@@ -52,8 +52,8 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
 
 1. Find the compiler output:
 
-     int main()
-     {
+     int main()\
+     {\
          int *a;
          a = 0;
      }
