@@ -69,7 +69,7 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
               foo();\
           }\
      }\
-     **Solution **: 11 12 13 14 ... 20\
+     **Solution**: 11 12 13 14 ... 20\
 3. Problem with this code:\
      void foo(const int &b){\
           b++;\
@@ -90,7 +90,7 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
         p = foo(); \
         printf("%d\n", *p);\
      }\
-     **Error ** : Load of Null pointer of type INT
+     **Error** : Load of Null pointer of type INT
      
  5. Problem : Twp Sorted Arrays a1 = [1 2 3 3 4 5 7 7 8], a2 = [2 4 5 6 8 9 9 10] \
               Combine these two arrays , such that output array is also sorted \
