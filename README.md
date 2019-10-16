@@ -1,7 +1,13 @@
 # crack_the_code
 Coding interview Questions and Solutions
 
-This repository is created with the intent of sharing easy/medium/hard and relevant coding problems for cracking software/firmware coding challenges. Following are the types of coding questions covered in this repo so far.
+This repository is created with the intent of sharing  relevant coding problems for cracking software/firmware/embedded-systems coding challenges. Following are the types of coding questions covered in this repo so far.
+
+Coding problems have been picked from following sources:
+
+1. LeetCode
+2. Codility
+3. Interviews
 
 ## 1. Bit Manipulation Questions:
   ### Basic One Liners:
@@ -38,12 +44,8 @@ This repository is created with the intent of sharing easy/medium/hard and relev
   13. product_bit_count.c -> Count Bits in Product of two numbers
   14. reverse_bits.c -> Reverse bits of a 32 bit unsigned Integer
      
+## 2. Array Manipulation
+   Problems hand picked from Leetcode and Codility. These include basic list merging, sorting, 1D and 2D array rotation, transpose, dot product. These are must for understanding time/space complexity trade-off in solving array problems. They do not include complex data structures and DP problems, since those are rarely asked in Firmware/Embedded-systems interviews.
 
-
-Coding problems have been picked from following sources:
-
-1. LeetCode
-2. Codility
-3. Interviews
 
 
