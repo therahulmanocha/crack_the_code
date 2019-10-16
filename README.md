@@ -50,7 +50,7 @@ Coding problems have been picked from following sources:
 ## 3. Interview Coding Questions
 Following is a compilation of Interview problems asked in Firmware Interviews at Amazon, FB, Xilinx, Samsung, Apple
 
-1. Find the compiler output:
+1. Find the compiler output:\
      int main()\
      {\
          int *a;\
@@ -76,7 +76,7 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
      int main(){\
           foo(25);\
      }\
-     **Solution** : b is const , so foo cannot increment b, compiler throws error\
+     **Solution** : b is const , so foo cannot increment b, compiler throws error
      
  4.  What will compiler output: \
      int *foo(){ \
@@ -94,23 +94,23 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
  5. Problem : Two Sorted Arrays a1 = [1 2 3 3 4 5 7 7 8], a2 = [2 4 5 6 8 9 9 10] \
               Combine these two arrays , such that output array is also sorted \
      **Solution** : 1. Solve by traversing the arrays using two pointers and filling in a new array. \
-                    2. Hash Table can work, if range of arrays elements are known. Maintain count of array elements in hash table.\
+                    2. Hash Table can work, if range of arrays elements are known. Maintain count of array elements in hash table.
  
  6. Problem : Two Sorted Arrays a1 and a2, find the intersection of these arrays. \
               If no intersection return NULL \
     **Solution** : 1. Use two pointers to traverse both arrays and store the same elements in a return array \
-                   2. Take care of duplicate elements in both arrays, by detecting duplication and skipping all duplicates\
+                   2. Take care of duplicate elements in both arrays, by detecting duplication and skipping all duplicates
                    
  7. Problem : Sort an array of 4 numbers using a function which gives only min and max \
-    **Solution** : See checked in Code\
+    **Solution** : See checked in Code
     
  8. Problem : Multiply 16 bit integers using 8 bit multipliers \
-    **Solution** : See checked in Code\
+    **Solution** : See checked in Code
  
  9. Problem : For a given array, return an array where each element is product of all elements in input array except the element at that index \
     Solve this in linear time complexity O(n) \
     Example : Input : [1,2,3,4,5] -> Output : [120,60,40,30,24] \
-    **Solution** : See checked in Code\
+    **Solution** : See checked in Code
  
 
 
