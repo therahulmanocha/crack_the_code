@@ -47,10 +47,11 @@ Coding problems have been picked from following sources:
 ## 2. Array Manipulation
    Problems hand picked from Leetcode and Codility. These include basic list merging, sorting, 1D and 2D array rotation, transpose, dot product. These are must for understanding time/space complexity trade-off in solving array problems. They do not include complex data structures and DP problems, since those are rarely asked in Firmware/Embedded-systems interviews.
 
-
+## 3. Interview Questions
 Following is a compilation of Interview problems asked in Firmware Interviews at Amazon, FB, Xilinx, Samsung, Apple
 
 1. Find the compiler output:
+
      int main()
      {
          int *a;
