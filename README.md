@@ -47,11 +47,10 @@ Coding problems have been picked from following sources:
 ## 2. Array Manipulation
    Problems hand picked from Leetcode and Codility. These include basic list merging, sorting, 1D and 2D array rotation, transpose, dot product. These are must for understanding time/space complexity trade-off in solving array problems. They do not include complex data structures and DP problems, since those are rarely asked in Firmware/Embedded-systems interviews.
 
-## 3. Interview Questions
+## 3. Interview Coding Questions
 Following is a compilation of Interview problems asked in Firmware Interviews at Amazon, FB, Xilinx, Samsung, Apple
 
 1. Find the compiler output:
-
      int main()\
      {\
          int *a;\
@@ -92,9 +91,28 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
      }\
      **Error** : Load of Null pointer of type INT
      
- 5. Problem : Twp Sorted Arrays a1 = [1 2 3 3 4 5 7 7 8], a2 = [2 4 5 6 8 9 9 10] \
+ 5. Problem : Two Sorted Arrays a1 = [1 2 3 3 4 5 7 7 8], a2 = [2 4 5 6 8 9 9 10] \
               Combine these two arrays , such that output array is also sorted \
+     **Solution** : 1. Solve by traversing the arrays using two pointers and filling in a new array. \
+                    2. Hash Table can work limits on arrays elements are known. Maintain count of array elements in hash table. \
  
+ 6. Problem : Two Sorted Arrays a1 and a2, find the intersection of these arrays. \
+              If no intersection return NULL \
+    **Solution** : 1. Use two pointers to traverse both arrays and store the same elements in a return array \
+                   2. Take care of duplicate elements in both arrays, by detecting duplication and skipping all duplicates \
+                   
+ 7. Problem : Sort an array of 4 numbers using a function which gives only min and max \
+    **Solution** : See checked in Code \
+    
+ 8. Problem : Multiply 16 bit integers using 8 bit multipliers \
+    **Solution** : See checked in Code \
+ 
+ 9. Problem : For a given array, return the an array where each element is product of all elements in input array except the element at that index \
+    Solve this in linear time complexity O(n) \
+    Example : Input : [1,2,3,4,5] -> Output : [120,60,40,30,24] \
+    **Solution** : See checked in Code \
  
 
+
+    
 
