@@ -108,6 +108,7 @@ Following is a compilation of Interview problems asked in Firmware Interviews at
     **Solution** : See checked in Code
  
  9. Problem : For a given array, return an array where each element is product of all elements in input array except the element at that index \
+    Don't use Division operator \
     Solve this in linear time complexity O(n) \
     Example : Input : [1,2,3,4,5] -> Output : [120,60,40,30,24] \
     **Solution** : See checked in Code
