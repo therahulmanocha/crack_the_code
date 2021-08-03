@@ -27,7 +27,7 @@ void merge(int *arr, int start, int middle, int end)
        for(int i = start; i < end+1; i++){
          arr[i] = merge_arr[i-start];
       }
-       
+      free(merge_arr);
 }
 
 void mergeSort(int *arr, int start, int end){
