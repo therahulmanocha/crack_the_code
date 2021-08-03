@@ -36,6 +36,8 @@ int *solution(const int *arr0, int size0){
         retArr[i] = prod_l[i] * prod_r[i];
     }
     
+    free(prod_l);
+    free(prod_r);
     return retArr;
     
 }
