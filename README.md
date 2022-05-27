@@ -12,7 +12,7 @@ Coding problems have been picked from following sources:
 ## 1. Bit Manipulation Questions:
   ### Basic One Liners:
   1. Check if n is Odd/Even : **(n & 1)**
-  2. Check if a and b have opposite sign : **(a ^ b > 0)**
+  2. Check if a and b have opposite sign : **(a ^ b < 0)**
   3. Count number of 1s in n :  **n = n & (n-1) , count++**
   4. Add 1 to integer n : **-~n**
   5. Swap two number x and y : **x = x ^ y; y = x ^ y; x = x ^ y**
