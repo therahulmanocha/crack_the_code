@@ -5,11 +5,17 @@ Write a function :
 struct Results { int * R; int M; // Length of the array };
 
 struct Results solution(int A[], int N, int B[], int K, int C[], int L);
-that modifies the value of a bit field within a variably sized integer.  This integer is given via the zero-indexed array A consisting of N integers, each holding 32 bits. The function is expected to return the value of the resulting integer in the same format.
+that modifies the value of a bit field within a variably sized integer.  
+This integer is given via the zero-indexed array A consisting of N integers, each holding 32 bits. 
+The function is expected to return the value of the resulting integer in the same format.
 
-The zero-based, inclusive positions of the least (LSB) and most significant (MSB) bits of the bit field to modify are given via the zero-indexed array B consisting of K (always 2) integers: B[0] holds the LSB, B[1] holds the MSB. The zero-indexed array C consisting of L (always 2) integers provides a 32-bit mask of bits to be cleared in the bit field, as well as a value of bits to be set: C[0] holds the mask, C[1] holds the value.
+The zero-based, inclusive positions of the least (LSB) and most significant (MSB) bits of the bit field 
+to modify are given via the zero-indexed array B consisting of K (always 2) integers: B[0] holds the LSB, B[1] holds the MSB. 
+The zero-indexed array C consisting of L (always 2) integers provides a 32-bit mask of bits to be cleared in the bit field, 
+as well as a value of bits to be set: C[0] holds the mask, C[1] holds the value.
 
-For example, given A[0] = 0xffff00f0, N = 1, B[0] = 4, B[1] = 7, C[0] = 0xf, and C[1] = 0x5, the function is expected to return Result.R[0] = 0xffff0050 and Result.N = 1.
+For example, given A[0] = 0xffff00f0, N = 1, B[0] = 4, B[1] = 7, C[0] = 0xf, and C[1] = 0x5, 
+the function is expected to return Result.R[0] = 0xffff0050 and Result.N = 1.
 
 Notes:
 
